@@ -1,0 +1,242 @@
+{
+    "title": "Elder Futhark",
+    "period": "2nd to 8th centuries",
+    "source": "Provided by SonsOfVikings.com",
+    "runes": [
+      {
+        "english": "A",
+        "rune": "ᚨ",
+        "ipa": "a(:)",
+        "protoGermanic": "ansuz",
+        "oldEnglish": "Ōs Āc Æsc",
+        "oldNorse": "Óss",
+        "meaning": "Odin, inspiration, wisdom"
+      },
+      {
+        "english": "B",
+        "rune": "ᛒ",
+        "ipa": "b",
+        "protoGermanic": "berkanan / berkana",
+        "oldEnglish": "Beorc",
+        "oldNorse": "Bjarkan",
+        "meaning": "birch tree, birth, liberation"
+      },
+      {
+        "english": "C (K/Q)",
+        "rune": "ᚲ",
+        "ipa": "k",
+        "protoGermanic": "kaunan / kaunaz",
+        "oldEnglish": "Cēn",
+        "oldNorse": "Kaun",
+        "meaning": "torch, fire, mallady, death"
+      },
+      {
+        "english": "D",
+        "rune": "ᛞ",
+        "ipa": "d",
+        "protoGermanic": "dagaz",
+        "oldEnglish": "Dæg",
+        "oldNorse": "",
+        "meaning": "day, dawn"
+      },
+      {
+        "english": "E",
+        "rune": "ᛖ",
+        "ipa": "e(:)",
+        "protoGermanic": "ehwaz",
+        "oldEnglish": "Ehwaz",
+        "oldNorse": "E(o)h",
+        "meaning": "horse, twin forces"
+      },
+      {
+        "english": "F",
+        "rune": "ᚠ",
+        "ipa": "f",
+        "protoGermanic": "fehu",
+        "oldEnglish": "Feoh",
+        "oldNorse": "Fé",
+        "meaning": "cattle, livestock, wealth"
+      },
+      {
+        "english": "G",
+        "rune": "ᚷ",
+        "ipa": "g",
+        "protoGermanic": "gebō",
+        "oldEnglish": "Gyfu",
+        "oldNorse": "Gār",
+        "meaning": "generosity, gift, spear"
+      },
+      {
+        "english": "H",
+        "rune": "ᚺ",
+        "ipa": "h",
+        "protoGermanic": "hagalaz",
+        "oldEnglish": "Hægl",
+        "oldNorse": "Hagall",
+        "meaning": "hail, storm, air"
+      },
+      {
+        "english": "I",
+        "rune": "ᛁ",
+        "ipa": "i(:)",
+        "protoGermanic": "īsaz / īsa",
+        "oldEnglish": "Īs",
+        "oldNorse": "Isa",
+        "meaning": "ice, challenge"
+      },
+      {
+        "english": "J",
+        "rune": "ᛃ",
+        "ipa": "j",
+        "protoGermanic": "jēra",
+        "oldEnglish": "Gēr Īor",
+        "oldNorse": "Ár",
+        "meaning": "year, harvest, earth"
+      },
+      {
+        "english": "K (C/Q)",
+        "rune": "ᚲ",
+        "ipa": "k",
+        "protoGermanic": "kaunan / kaunaz",
+        "oldEnglish": "Cēn",
+        "oldNorse": "Kaun",
+        "meaning": "torch, fire, mallady, death"
+      },
+      {
+        "english": "L",
+        "rune": "ᛚ",
+        "ipa": "l",
+        "protoGermanic": "laguz",
+        "oldEnglish": "Lagu",
+        "oldNorse": "Lögr",
+        "meaning": "water, sea, ocean"
+      },
+      {
+        "english": "M",
+        "rune": "ᛗ",
+        "ipa": "m",
+        "protoGermanic": "mannaz",
+        "oldEnglish": "Mann",
+        "oldNorse": "Maðr",
+        "meaning": "man, human, self"
+      },
+      {
+        "english": "N",
+        "rune": "ᚾ",
+        "ipa": "n",
+        "protoGermanic": "naudiz / nauthiz",
+        "oldEnglish": "Nȳd",
+        "oldNorse": "Nauðr",
+        "meaning": "need, hardship"
+      },
+      {
+        "english": "Ŋ",
+        "rune": "ᛜ",
+        "ipa": "ŋ",
+        "protoGermanic": "ingwaz",
+        "oldEnglish": "Ing",
+        "oldNorse": "",
+        "meaning": "the god Ingwaz (Yngvi, Frey), masculine energy"
+      },
+      {
+        "english": "O",
+        "rune": "ᛟ",
+        "ipa": "o(:)",
+        "protoGermanic": "ōþila / ōþala / othila",
+        "oldEnglish": "Ēðel",
+        "oldNorse": "",
+        "meaning": "heritage, estate"
+      },
+      {
+        "english": "P",
+        "rune": "ᛈ",
+        "ipa": "p",
+        "protoGermanic": "perþ / peorþ",
+        "oldEnglish": "Peorð",
+        "oldNorse": "",
+        "meaning": "Elder tree, feminine energy, dance, sexuality"
+      },
+      {
+        "english": "Q (C/K)",
+        "rune": "ᚲ",
+        "ipa": "k",
+        "protoGermanic": "kaunan / kaunaz",
+        "oldEnglish": "Cēn",
+        "oldNorse": "Kaun",
+        "meaning": "torch, fire, mallady, death"
+      },
+      {
+        "english": "R",
+        "rune": "ᚱ",
+        "ipa": "r",
+        "protoGermanic": "raidō",
+        "oldEnglish": "Rād",
+        "oldNorse": "Reið",
+        "meaning": "horse, ride, journey, Thor"
+      },
+      {
+        "english": "S",
+        "rune": "ᛊ",
+        "ipa": "s",
+        "protoGermanic": "sōwilō / sowulo",
+        "oldEnglish": "Sigel",
+        "oldNorse": "Sól",
+        "meaning": "sun, thunderbolt, honor"
+      },
+      {
+        "english": "T",
+        "rune": "ᛏ",
+        "ipa": "t",
+        "protoGermanic": "tīwaz / teiwaz",
+        "oldEnglish": "Tīr",
+        "oldNorse": "Týr",
+        "meaning": "the one handed god"
+      },
+      {
+        "english": "U",
+        "rune": "ᚢ",
+        "ipa": "u(:)",
+        "protoGermanic": "ūruz",
+        "oldEnglish": "Ūr Ȳr",
+        "oldNorse": "Úr",
+        "meaning": "water, rain, aurochs"
+      },
+      {
+        "english": "(V) W",
+        "rune": "ᚹ",
+        "ipa": "w",
+        "protoGermanic": "wunjō",
+        "oldEnglish": "Wuniō",
+        "oldNorse": "Wynn",
+        "meaning": "joy, pleasure, harmony, kinship"
+      },
+      {
+        "english": "X",
+        "rune": "ᚦ",
+        "ipa": "θ, ð",
+        "protoGermanic": "þurisaz / thurisaz",
+        "oldEnglish": "Þorn",
+        "oldNorse": "Þurs",
+        "meaning": "Giant, thorn, danger"
+      },
+      {
+        "english": "Y / Ü (æ)",
+        "rune": "ᛇ",
+        "ipa": "æ(?)",
+        "protoGermanic": "īwaz / eiwaz",
+        "oldEnglish": "Ēoh",
+        "oldNorse": "",
+        "meaning": "Yggdrasil, yew tree, dream"
+      },
+      {
+        "english": "Z",
+        "rune": "ᛉ",
+        "ipa": "z",
+        "protoGermanic": "algiz",
+        "oldEnglish": "Eolh",
+        "oldNorse": "Ýr",
+        "meaning": "protection, shield, elk"
+      }
+    ]
+  }
+  
