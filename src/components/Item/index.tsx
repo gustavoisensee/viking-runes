@@ -5,7 +5,7 @@ type Props = {
 }
 
 const Item = ({ rune }: Props) => (
-  <div className="card bg-base-100 w-56 min-h-56 shadow-xl py-2">
+  <div className="card bg-base-100 w-auto min-h-56 shadow-xl py-2">
     <h1 className="text-5xl mt-2 text-center">{rune.rune}</h1>
     <div className="card-body">
       <h2 className="card-title">
