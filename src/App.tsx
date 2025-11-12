@@ -1,17 +1,20 @@
-import elderRunes from './data/elder-runes.json';
+import { Routes, Route, Navigate } from "react-router-dom";
+import Layout from "./components/Layout";
+import Gallery from "./components/Gallery";
+import Features from "./components/Features";
+import Symbols from "./components/Symbols";
 
-import List from './components/List';
+const App = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Navigate to="/gallery" replace />} />
+        <Route path="gallery" element={<Gallery />} />
+        <Route path="features" element={<Features />} />
+        <Route path="symbols" element={<Symbols />} />
+      </Route>
+    </Routes>
+  );
+};
 
-const App = () => (
-  <div className="container mx-auto p-2">
-    <div className="my-4">
-      <span className="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-4 text-3xl">
-        {elderRunes.title}<br />
-        {elderRunes.period}
-      </span>
-    </div>
-    <List />
-  </div>
-);
-
-export default App
+export default App;
