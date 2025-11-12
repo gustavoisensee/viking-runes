@@ -1,5 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import { elderRunes, Rune } from '../../data/elder-runes.json';
+import elderRunesData from '../../data/elder-runes.json';
+
+interface Rune {
+  english: string;
+  rune: string;
+  ipa: string;
+  protoGermanic: string;
+  oldEnglish: string;
+  oldNorse: string;
+  meaning: string;
+}
+
+const elderRunes = elderRunesData.runes;
 
 const CircleView: React.FC = () => {
   const [selectedRune, setSelectedRune] = useState<Rune | null>(null);
@@ -38,7 +50,7 @@ const CircleView: React.FC = () => {
   useEffect(() => {
     // Recalculate positions when circleDimensions change
     const { radius, centerX, centerY } = circleDimensions;
-    const newPositions = elderRunes.map((_, index) => {
+    const newPositions = elderRunes.map((_: Rune, index: number) => {
       const angle = (index / elderRunes.length) * 2 * Math.PI - Math.PI / 2; // Offset by -PI/2 to start at the top
       const x = centerX + radius * Math.cos(angle);
       const y = centerY + radius * Math.sin(angle);
@@ -71,13 +83,13 @@ const CircleView: React.FC = () => {
             height: `${circleDimensions.radius * 0.8}px`,
           }}
         />
-        {positions.length > 0 && elderRunes.map((rune, index) => (
+        {positions.length > 0 && elderRunes.map((rune: Rune, index: number) => (
           <div
-            key={rune.id}
+            key={index}
             onClick={() => handleRuneClick(rune)}
             className={`absolute w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center rounded-full cursor-pointer transition-all duration-200 ease-in-out transform hover:scale-110
                         border-2 shadow-md hover:shadow-yellow-400/40
-                        ${selectedRune?.id === rune.id 
+                        ${selectedRune?.english === rune.english 
                           ? 'bg-yellow-500 text-gray-900 scale-110 shadow-xl border-yellow-300 ring-2 ring-yellow-400 ring-offset-2 ring-offset-gray-800 z-10' 
                           : 'bg-gray-600 border-gray-500 hover:bg-gray-500 hover:border-yellow-500'}`}
             style={{
